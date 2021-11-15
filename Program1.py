@@ -24,3 +24,30 @@ grade = float (input("Enter your Grade: "))
 if grade <= 100 and grade >= 97:
     print("Grade/Mark: 1.0")
     print("Description: Excellent")
+elif grade <= 96 and grade >= 94:
+    print("Grade/Mark: 1.25")
+    print("Description: Excellent")
+elif grade <= 93 and grade >= 91:
+    print("Grade/Mark: 1.5")
+    print("Description: Very Good")
+elif grade <= 90 and grade >= 88:
+    print("Grade/Mark: 1.75")
+    print("Description: Very Good")
+elif grade <= 87 and grade >= 85:
+    print("Grade/Mark: 2.0")
+    print("Description: Good")
+elif grade <= 84 and grade >= 82:
+    print("Grade/Mark: 2.25")
+    print("Description: Good")
+elif grade <= 81 and grade >= 79:
+    print("Grade/Mark: 2.5")
+    print("Description: Satisfactory")
+elif grade <= 78 and grade >= 76:
+    print("Grade/Mark: 2.75")
+    print("Description: Satisfactory")
+elif grade == 75:
+    print("Grade/Mark: 3.00")
+    print("Description: Passing")
+elif grade <= 74 and grade >= 65:
+    print("Grade/Mark: 5.0")
+    print("Description: Failure")   
